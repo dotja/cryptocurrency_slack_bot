@@ -7,6 +7,18 @@ Used to automate Slack notifications of cryptocurrency prices.
 requests
 slackclient
 ```
+### Cryptocurrency API
+
+I've used the API and endpoint below:
+```
+https://api.coingecko.com/api/v3/simple/price
+```
+
+with the parameters below:
+
+```
+?ids=bitcoin&vs_currencies=usd
+```
 
 ### Cron setup
 
